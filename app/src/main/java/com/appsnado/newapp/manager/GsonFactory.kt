@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 
+/*
 object GsonFactory {
     val DATE_FROMAT = "dd-MM-yyyy"
     val DATE_FROMAT_2 = "dd/MM/yyyy"
@@ -211,4 +212,4 @@ object GsonFactory {
         }
     }
 
-}
+}*/

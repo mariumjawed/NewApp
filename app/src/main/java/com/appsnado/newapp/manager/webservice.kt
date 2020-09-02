@@ -1,16 +1,5 @@
 package com.appsnado.newapp.manager
 
-import android.app.Activity
-import android.content.Intent
-import com.appsnado.newapp.activities.MainActivity
-import com.appsnado.newapp.constants.AppConstants
-import com.appsnado.newapp.constants.WebServiceConstants.BASE_URL
-import com.appsnado.newapp.model.WebResponse
-import okhttp3.*
-import org.json.JSONObject
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
-
 
 class webservice {
     /*private var apiService: WebServiceProxy? = null

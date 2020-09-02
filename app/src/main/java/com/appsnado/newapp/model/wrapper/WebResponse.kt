@@ -1,4 +1,4 @@
-package com.appsnado.newapp.model
+package com.appsnado.newapp.model.wrapper
 
 import com.google.gson.annotations.SerializedName
 

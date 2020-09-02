@@ -60,7 +60,7 @@ object WebServiceFactory {
             retrofitBase =
                 Retrofit.Builder() //                    .baseUrl(WebServiceConstants.BASE_URL_LIVE)
                     .baseUrl(WebServiceConstants.BASE_URL)
-                    .addConverterFactory(GsonConverterFactory.create(GsonFactory.getSimpleGson()))
+                   // .addConverterFactory(GsonConverterFactory.create(GsonFactory.getSimpleGson()))
                     .client(httpClient.build())
                     .build()
         }
