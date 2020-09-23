@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_20sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            style="@style/edittextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:drawableStart="@drawable/emailicon"
+            android:hint="Email" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            style="@style/edittextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:drawableStart="@drawable/passwordicon"
+            android:hint="Password" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            style="@style/edittextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:drawableStart="@drawable/passwordicon"
+            android:hint="Password" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            style="@style/edittextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:drawableStart="@drawable/passwordicon"
+            android:hint="Password" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            style="@style/edittextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:drawableStart="@drawable/passwordicon"
+            android:hint="Password" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/rounded_whitebox"
+            android:backgroundTint="@color/colorPrimary"
+            android:imeOptions="actionDone"
+            android:text="Done"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+
+</ScrollView>
