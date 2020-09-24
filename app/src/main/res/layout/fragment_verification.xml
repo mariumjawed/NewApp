@@ -64,7 +64,7 @@
         app:fieldBgColor="@color/white"
         app:fieldColor="@color/hintColor"
         app:highlightColor="@color/hintColor"
-        app:noOfFields="5" />
+        app:noOfFields="6" />
 
 
     <RelativeLayout
