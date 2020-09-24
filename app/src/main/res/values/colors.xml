@@ -5,6 +5,8 @@
     <color name="colorAccent">#039eb3</color>
     <color name="white">#FFFFFF</color>
     <color name="textColor">#b7b7b7</color>
+    <color name="heading">#6F82A3</color>
     <color name="hintColor">#c8c8c8</color>
+    <color name="transparent">#36F6F6F6</color>
     <color name="clickOption">#039eb3</color>
 </resources>

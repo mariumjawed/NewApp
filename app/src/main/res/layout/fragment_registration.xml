@@ -26,7 +26,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_20sdp"
             android:drawableStart="@drawable/emailicon"
-            android:hint="Email" />
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
 
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -35,7 +36,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_20sdp"
             android:drawableStart="@drawable/passwordicon"
-            android:hint="Password" />
+            android:hint="Password"
+            android:inputType="textPassword" />
 
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -44,7 +46,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_20sdp"
             android:drawableStart="@drawable/passwordicon"
-            android:hint="Password" />
+            android:hint="Password"
+            android:inputType="textPassword" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
@@ -90,13 +93,13 @@
             android:orientation="horizontal"
             android:padding="@dimen/_10sdp">
 
-            <ImageView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/_5sdp"
                 android:src="@drawable/fbicon" />
 
-            <ImageView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_5sdp"

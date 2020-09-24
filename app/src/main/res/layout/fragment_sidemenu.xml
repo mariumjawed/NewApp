@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_gradient"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/editproicon"
+                android:padding="@dimen/_5sdp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/useribg" />
+
+
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/textStyleWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="John Smith"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/textStyleWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center"
+            android:text="jhon.smith@gmail.com" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/textStyleWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center"
+            android:text="(123) 456 789" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/textStyleWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Pre Graduated" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/textStyleWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:gravity="center"
+            android:text="Student" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/textStyleWhiteWithIcon"
+                android:drawableStart="@drawable/dashboardicon"
+                android:text="DASHBOARD" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/textStyleWhiteWithIcon"
+                android:drawableStart="@drawable/coursesicon"
+                android:text="COURSES" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/textStyleWhiteWithIcon"
+                android:drawableStart="@drawable/searchicon"
+                android:text="SEARCH" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/textStyleWhiteWithIcon"
+                android:drawableStart="@drawable/forumsicon"
+                android:text="FORUMS" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/textStyleWhiteWithIcon"
+                android:drawableStart="@drawable/dashboardicon"
+                android:text="DASHBOARD" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/textStyleWhiteWithIcon"
+                android:drawableStart="@drawable/certificateicon"
+                android:text="CERTIFICATES" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/textStyleWhiteWithIcon"
+                android:drawableStart="@drawable/paymenticon"
+                android:text="PAYMENT" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/textStyleWhiteWithIcon"
+                android:drawableStart="@drawable/changepassicon"
+                android:text="CHANGE PASSWORD" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/textStyleWhiteWithIcon"
+                android:drawableStart="@drawable/termsandcondition"
+                android:text="TERMS &amp; CONDITIONS" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/textStyleWhiteWithIcon"
+                android:drawableStart="@drawable/privacypolicyicon"
+                android:text="PRIVACY POLICY" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/textStyleWhiteWithIcon"
+                android:drawableStart="@drawable/helpicon"
+                android:text="HELP &amp; FEEDBACK" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/textStyleWhiteWithIcon"
+                android:drawableStart="@drawable/logouticon"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:text="LOGOUT" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
