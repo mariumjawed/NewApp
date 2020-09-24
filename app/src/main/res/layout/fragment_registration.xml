@@ -5,7 +5,7 @@
     android:fillViewport="true"
     android:scrollbars="none">
 
-    <LinearLayout
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/background"
@@ -62,7 +62,7 @@
             android:textSize="@dimen/_12ssp" />
 
 
-        <LinearLayout
+        <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="@dimen/_40sdp"
             android:layout_marginTop="@dimen/_20sdp"
@@ -83,9 +83,9 @@
                 android:text="I have read and agreed the Terms &amp; Conditions and Privacy Policy"
                 android:textColor="@color/clickOption" />
 
-        </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
-        <LinearLayout
+        <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_20sdp"
@@ -105,9 +105,9 @@
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:src="@drawable/googleicon" />
 
-        </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
 
-    </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 </ScrollView>
