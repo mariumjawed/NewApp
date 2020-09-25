@@ -83,7 +83,7 @@
                             android:minLines="1"
                             android:text="Aug 15,2020 at 5:00 pm"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_9ssp" />
+                            android:textSize="@dimen/_8ssp" />
 
                     </LinearLayout>
 
@@ -144,7 +144,7 @@
                             android:minLines="1"
                             android:text="Aug 15,2020 at 7:00 pm"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_9ssp" />
+                            android:textSize="@dimen/_8ssp" />
 
                     </LinearLayout>
 
