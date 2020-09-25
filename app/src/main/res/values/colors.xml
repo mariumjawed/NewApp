@@ -7,7 +7,8 @@
     <color name="textColor">#b7b7b7</color>
     <color name="heading">#6F82A3</color>
     <color name="hintColor">#c8c8c8</color>
-    <color name="transparent">#36F6F6F6</color>
+    <color name="transparent">#A66B7881</color>
     <color name="clickOption">#039eb3</color>
     <color name="colorBlueBg">#CE10CDE3</color>
+    <color name="black">#000000</color>
 </resources>

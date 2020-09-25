@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat android:layout_width="match_parent"
+    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true"
-    android:scrollbars="none">
-
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/backgroundblue"
-        android:gravity="center|top"
-        android:orientation="vertical"
-        android:padding="@dimen/_20sdp">
+    android:background="@drawable/backgroundblue"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:padding="@dimen/_20sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
 
         <com.google.android.material.card.MaterialCardView
@@ -33,11 +27,10 @@
                     style="@style/edittextStyle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/_5sdp"
                     android:layout_weight="1"
                     android:hint="Select Course" />
 
-                <ImageView
+                <androidx.appcompat.widget.AppCompatImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:background="@color/colorPrimary"
@@ -52,7 +45,7 @@
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_15sdp">
 
             <androidx.appcompat.widget.AppCompatTextView
@@ -66,7 +59,7 @@
                 android:text="Select Sub-Category"
                 android:textColor="@color/hintColor" />
 
-            <ImageView
+            <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:paddingStart="@dimen/_10sdp"
@@ -88,10 +81,7 @@
             android:layout_marginTop="@dimen/_20sdp"
             android:orientation="vertical"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:itemCount="5"
             tools:listitem="@layout/item_search" />
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>
-
-</ScrollView>
